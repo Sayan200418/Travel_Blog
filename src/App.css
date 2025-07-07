@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow: hidden; */
+  overflow-y: auto;
+}
+
+html {
+  overflow: auto;
+}
+
+.inputBox {
+  display: flex;
+  align-items: center;
+  background-color: #f1f1f1;
+}
+
+.inputBox input {
+  flex: 1;
+  padding: 10px;
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+}
+
+.btnNormal {
+  padding: 3px;
+  background-color: #f1f1f1;
+  border: 0;
+  min-width: 90px;
+  outline: 0;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+.abc {
+  padding: 3px;
+
+  border: 0;
+  min-width: 90px;
+  outline: 0;
+  cursor: pointer;
+  border-radius: 30px;
+
+}
+
+.cards {
+  columns: 325px;
+  column-gap: 10px;
+}
+
+.card img {
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+.card .mainImg{
+  width: 100%;
+}
+
+.card {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.inputBox12{
+  display: flex;
+  align-items: center;
+  border: 0;
+  outline: 2px solid #d1d5db;
+  border-radius: 20px;
+}
+.inputBox12 input{
+  flex: 1;
+  padding: 10px;
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+}
+.inputBox12 textarea{
+  flex: 1;
+  padding: 10px;
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  min-height: 100px;
+  resize: vertical;
+}
